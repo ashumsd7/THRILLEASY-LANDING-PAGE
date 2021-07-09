@@ -92,7 +92,7 @@ margin: 15px 0;
     display: block;
     width: 90%;
     margin: auto;
-    background: yellow;
+    background: red;
     color:back;
     font-size: 4rem;
     padding: 5px 0;
@@ -126,7 +126,7 @@ margin: 15px 0;
    
 }
 .img-icon img {
-    max-width: 140px;
+    max-width: 120px;
 }
 .side-bar{
     flex:0 0 98vw;
@@ -145,7 +145,14 @@ margin: 15px 0;
     color:back;
     font-size: 2rem;
     padding: 5px 0;
-   ;
+ 
+}
+.services-info {
+    margin: 5px 0;
+}
+.services-info img{
+    width: 90px;
+     margin: 5px 0;
 }
 
 }
