@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+</style>
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+ul{
+    list-style-type: none;
+    cursor: pointer;
+}
+nav{
+    background: black;
+    display: flex;
+    color: wheat;
+    justify-content: space-between;
+}
+
+.bar,.search{
+    margin-top: 20px;
+    padding: 5px;
+}
+.nav-link{
+  display: none;
+}
+.nav-link li{
+ margin: 1.3rem 1.4rem;
+ font-size: 1.3rem;
+ font-weight: bolder;
+}
+
+
+@media screen and (min-width:900px) {
+    .nav-link{
+  display: flex;
+     justify-content: space-between;
+}
+.hambar-container{
+    order: 2;
+    display: none;
+}
+
+}
+
+main{
+    display: flex;
+    flex-flow: row;
+     font-family: 'Roboto', sans-serif;
+}
+.banner{
+    width: calc(98vw - 500px);
+}
+.side-bar{
+    flex:0 0 500px;
+}
+
+.heading{
+    margin: 1.5rem;
+    
+}
+.heading h2{
+    font-size: 1.9rem;
+   
+}
+.rating-info{
+display: flex;
+
+margin: 15px 0;
+}
+.img-icon img{
+    max-width: 170px;
+}
+.discount-info{
+    margin: 0 1rem;
+
+}
+.discount-info p{
+    font-size: 1.5rem;
+    font-size: normal;
+    
+}
+.discount-info p span{
+    text-decoration: line-through
+}
+.price-info{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+.book-btn button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    background: yellow;
+    color:back;
+    font-size: 4rem;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.services-info {
+    margin: 20px;
+}
+.services-info img{
+    width: 100px;
+}
+
+@media screen and (max-width:900px){
+    main{
+    flex-flow: column;
+   
+}
+.banner{
+    width:98vw;
+}
+.side-bar{
+    flex:0 0 98vw;
+}
+
+}
