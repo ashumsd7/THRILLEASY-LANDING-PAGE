@@ -116,8 +116,36 @@ margin: 15px 0;
     width:98vw;
     margin: auto;
 }
+.heading{
+    margin: 1rem;
+   
+    
+}
+.heading h2{
+    font-size: 1.4rem;
+   
+}
+.img-icon img {
+    max-width: 140px;
+}
 .side-bar{
     flex:0 0 98vw;
+}
+.price-info{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.book-btn button{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    background: yellow;
+    color:back;
+    font-size: 2rem;
+    padding: 5px 0;
+   ;
 }
 
 }
