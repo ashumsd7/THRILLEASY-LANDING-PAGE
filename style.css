@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
-
 *{
     margin: 0;
     box-sizing: 0;
     padding: 0;
-    
+   
 }
 ul{
     list-style-type: none;
@@ -115,6 +114,7 @@ margin: 15px 0;
 }
 .banner{
     width:98vw;
+    margin: auto;
 }
 .side-bar{
     flex:0 0 98vw;
